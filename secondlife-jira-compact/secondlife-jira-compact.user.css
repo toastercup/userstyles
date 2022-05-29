@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name        Compact Second Life Jira
+@namespace   toastercup
+@version     1.0.0
+@homepageURL https://github.com/toastercup/userstyles/secondlife-jira-compact
+@updateURL   https://raw.githubusercontent.com/toastercup/userstyles/main/secondlife-jira-compact/secondlife-jira-compact.user.css
+@license     GPL3
+@author      toastercup
+==/UserStyle== */
+@-moz-document domain("jira.secondlife.com") {
+  #announcement-banner {
+    display: none !important;
+  }
+}
